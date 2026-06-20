@@ -1,0 +1,30 @@
+{
+  "template_name": "company_dossier_fields",
+  "description": "56-field company dossier template for Millenia Dossier extraction.",
+  "fields": [
+    {"name": "company_name", "description": "Common company name or brand name."},
+    {"name": "legal_company_name", "description": "Full legal company name."},
+    {"name": "website", "description": "Company website URL or domain."},
+    {"name": "industry_or_sector", "description": "Industry, sector, vertical, or market category."},
+    {"name": "company_stage_or_company_idea", "description": "Company stage, concept, or high-level company idea."},
+    {"name": "headquarters_location", "description": "Headquarters or main operating location."},
+    {"name": "incorporation_location", "description": "State/country/jurisdiction of incorporation."},
+    {"name": "year_founded", "description": "Year the company was founded."},
+    {"name": "legal_entity_structure", "description": "Legal entity type."},
+    {"name": "one_line_description", "description": "One clear sentence explaining what the company does."},
+    {"name": "company_problem", "description": "The problem the company addresses."},
+    {"name": "company_solution", "description": "The solution the company provides."},
+    {"name": "business_model", "description": "How the company makes money."},
+    {"name": "target_customers", "description": "Customer types or market segments."},
+    {"name": "competitive_advantage", "description": "Moat or differentiation."},
+    {"name": "product_status", "description": "Product stage/status."},
+    {"name": "revenue", "description": "Revenue amount or description."},
+    {"name": "amount_raised_to_date", "description": "Total amount raised."},
+    {"name": "previous_investors", "description": "Existing or previous investors."},
+    {"name": "current_round", "description": "Current round type."},
+    {"name": "use_of_funds", "description": "How the company plans to use the funds."},
+    {"name": "key_milestones", "description": "Important company milestones."},
+    {"name": "market_size", "description": "Market size or TAM."},
+    {"name": "risk_disclosures", "description": "Explicit risks or concerns."}
+  ]
+}

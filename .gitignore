@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment / secrets (matching-engine real .env is never committed)
+.env
+!Millenia-Dossier/.env
+
+# Pipeline output / run dirs
+runs/
+Millenia-Dossier/runs/
+_revert_backups/
+
+# Confidential company artifacts — NEVER commit to this public repo
+Millenia-Dossier/Neuraegis/
+Millenia-Dossier/**/*.pdf
+Millenia-Dossier/**/*.docx
+Millenia-Dossier/**/*.xlsx
+Millenia-Dossier/**/*.pptx
+
+# Excluded legacy source projects (not part of integration)
+HealthRate/
+document-intelligence-lab-main/
